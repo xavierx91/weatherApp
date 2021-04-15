@@ -1,0 +1,13 @@
+.fiveDay {
+   display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    width: 1000px;
+    align-self: right;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  
+   
+
+}
