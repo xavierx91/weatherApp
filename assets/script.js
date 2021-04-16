@@ -23,7 +23,7 @@ $('.history').on('click', function (){
 
 
 function oneDayForecast(city) {
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=a62333615945cd059c609c2e66c8f544')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=a62333615945cd059c609c2e66c8f544')
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -45,7 +45,7 @@ function oneDayForecast(city) {
         })
 }
 function fiveForecast(city) {
-    fetch('http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&appid=a62333615945cd059c609c2e66c8f544')
+    fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + city + '&appid=a62333615945cd059c609c2e66c8f544')
         .then(response => response.json())
         .then(data => {
             // var nameValue = data['name'];
